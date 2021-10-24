@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.timer {
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+}
+span {
+  display: block;
+}
+
+.field {
+  margin-right: 10px;
+}
+.field:last-child{
+  margin-right: 0;
+}
+.value{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #FFF;
+  background-color: #373D3F;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.label {
+  font-size: 20px;
+  color: #808080;
+  width: 120px;
+  text-align: center;
+}
